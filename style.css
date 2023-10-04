@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -17,12 +19,12 @@ body {
     padding: 0;
     margin: 0 auto;
     justify-content: space-around;
-    background-image: linear-gradient(to bottom, rgb(2, 0, 29) 20%, transparent);
+    background-image: linear-gradient(to bottom, rgb(1, 0, 15) 20%, transparent);
 }
 
 .title {
     color: white;
-    margin-top: 1.5em;
+    margin-top: 1.8em;
     filter: drop-shadow(1px 1px 5px #000000);
 }
 
@@ -52,16 +54,31 @@ body {
     display: inline-block;
 }
 
-.intro h2 {
+.intro_text {
+    max-width: 37em;
+}
+
+.intro_text h2 {
     color: white;
     font-size: 5em;
     letter-spacing: 10px;
-    margin-left: 5.7em;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 0.3em;
     font-family: monospace;
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 1s steps(13), cursor;
+    animation: typing 1s steps(20), cursor;
+    filter: drop-shadow(1px 1px 5px #000000);
+}
+
+.intro_text p {
+    color: white;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 3.3em;
+    margin-top: 0em;
 }
 
 @keyframes cursor {
