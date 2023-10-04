@@ -1,0 +1,77 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    background-image: url(img/background3.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0 auto;
+    justify-content: space-around;
+    background-image: linear-gradient(to bottom, rgb(2, 0, 29) 20%, transparent);
+}
+
+.title {
+    color: white;
+    margin-top: 1.5em;
+    filter: drop-shadow(1px 1px 5px #000000);
+}
+
+.title img:hover {
+    transition: 0.1s linear;
+    filter: drop-shadow(1px 1px 50px #ffffff);
+}
+
+.navbar li{
+    display: inline-block;
+    margin: 1em;
+    filter: drop-shadow(1px 1px 5px #000000);
+}
+
+.navbar a:hover {
+    filter: drop-shadow(1px 1px 30px #ffffff);
+    transition: 0.5s linear;
+    font-size: 1.05em;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.intro {
+    display: inline-block;
+}
+
+.intro h2 {
+    color: white;
+    font-size: 5em;
+    letter-spacing: 10px;
+    margin-left: 5.7em;
+    font-family: monospace;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 1s steps(13), cursor;
+}
+
+@keyframes cursor {
+    50% { 
+        border-color: transparent;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
