@@ -51,7 +51,9 @@ body {
 }
 
 .intro {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3em;
 }
 
 .intro_text {
@@ -69,7 +71,7 @@ body {
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 1s steps(20), cursor;
+    animation: typing 1.4s steps(30);
     filter: drop-shadow(1px 1px 5px #000000);
 }
 
@@ -81,16 +83,26 @@ body {
     margin-top: 0em;
 }
 
-@keyframes cursor {
-    50% { 
-        border-color: transparent;
-    }
-}
-
 @keyframes typing {
     from {
         width: 0;
     }
+}
+
+.swiper {
+    margin: 0;
+    width: 45em;
+    height: fit-content;
+    border-radius: 2em;
+    box-sizing: border-box;
+}
+
+.swiper-slide img {
+    width: 45em;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: white;
 }
 
 @media screen and (max-width: 480px) {

@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Oficial - menezesalexandre</title>
     <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
 </head>
 <body>
     <header class="cabecalho">
@@ -22,11 +26,49 @@
 
     <section class="intro">
         <div class="intro_text">
-          <div id="intro_ola_mundo">
-            <h2>Olá, Mundo!</h2>
-          </div>
-            <p>Como desenvolvedor Full Stack, minha expertise abrange tanto a criação de experiências front-end intuitivas quanto o desenvolvimento de sistemas back-end. Explore mais e descubra uma variedade de grandes projetos.</p>
+            <div id="intro_ola_mundo">
+                <h2>Olá, Mundo!</h2>
+            </div>
+            <div class="intro_text" id="paragraph">
+                <p>Explore o portfolio, um reflexo da minha experiência na área desenvolvimento. Como desenvolvedor Full Stack, minha expertise abrange tanto a criação de experiências front-end intuitivas quanto o desenvolvimento de sistemas back-end. Explore mais e descubra uma variedade de grandes projetos.</p>
+            </div>
         </div>
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="img/dev_front-end.png" alt="Aston Martin"></div>
+              <div class="swiper-slide"><img src="img/dev_back-end.png" alt="Audi RS E-Tron"></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    
+        <script>
+            const swiper = new Swiper('.swiper', {
+                autoplay: {
+                delay: 1800,
+                disableOnInteraction: false,
+                },
+                
+                // Optional parameters
+                loop: true,
+            
+                // If we need pagination
+                pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                },
+            
+                // Navigation arrows
+                navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+        </script>
     </section>
 </body>
 </html>
