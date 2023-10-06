@@ -92,3 +92,22 @@ body {
         width: 0;
     }
 }
+
+@media screen and (max-width: 480px) {
+  .cabecalho {
+    flex-direction: column;
+  }
+
+  .cabecalho img {
+    margin-left: 2em;
+  }
+
+  .intro_text {
+    max-width: 20em;
+  }
+
+  #intro_ola_mundo {
+    font-size: 0.4em;
+    margin-left: 6em;
+  }
+}
