@@ -50,37 +50,70 @@ body {
     color: white;
 }
 
+.social li{
+    display: inline-block;
+    margin: 1em;
+    filter: drop-shadow(1px 1px 5px #000000);
+}
+
+.social a:hover {
+    filter: drop-shadow(1px 1px 30px #ffffff);
+    transition: 0.5s linear;
+    font-size: 1.05em;
+}
+
+.social a {
+    text-decoration: none;
+    color: white;
+}
+
 .intro {
     display: flex;
     flex-direction: row;
     margin-top: 3em;
+    margin-bottom: 4em;
 }
 
-.intro_text {
+.intro .info_text {
+    margin-left: 2em;
+}
+
+.info_text {
     max-width: 37em;
 }
 
-.intro_text h2 {
+.info_text h2 {
     color: white;
     font-size: 5em;
     letter-spacing: 10px;
-    margin-left: 1em;
+    margin-left: 0.7em;
     margin-top: 1em;
     margin-bottom: 0.3em;
     font-family: monospace;
-    width: 100%;
+    width: 7em;
     white-space: nowrap;
     overflow: hidden;
     animation: typing 1.4s steps(30);
+    animation-iteration-count: inherit;
     filter: drop-shadow(1px 1px 5px #000000);
 }
 
-.intro_text p {
+.info_text h3 {
+    font-family: monospace;
+    color: white;
+}
+
+.info_text p {
     color: white;
     font-size: 1.2em;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 3.3em;
     margin-top: 0em;
+    text-align: center;
+    max-width: 25em;
+}
+
+#paragraph {
+    margin-left: 2em;
 }
 
 @keyframes typing {
@@ -105,6 +138,65 @@ body {
     color: white;
 }
 
+button {
+    background-color: black;
+    color: white;
+    padding: 1em;
+    padding-right: 3em;
+    padding-left: 3em;
+    border: none;
+    border-radius: 20px;
+    margin-left: 13.5em;
+}
+
+button:hover {
+    cursor: pointer;
+    filter: drop-shadow(1px 1px 5px #fff);
+    transition: 0.5s;
+}
+
+.front-end {
+    background-image: linear-gradient(to bottom, rgb(255, 217, 0), rgb(0, 0, 0));
+    margin: 0 auto;
+    padding: 2em;
+    padding-right: 3em;
+    display: flex;
+    flex-direction: row;
+}
+
+#desenvolvimento1, #desenvolvimento2 {
+    font-size: 3em;
+    margin-top: 0.6em;
+    margin-bottom: 0em;
+    margin-left: 1.9em;
+}
+
+.front-end h2, .back-end h2 {
+    margin-top: 0em;
+    font-size: 5em;
+    margin-left: 0.7em;
+}
+
+.front-end p {
+    margin-left: 0.7em;
+}
+
+.back-end {
+    background-image: linear-gradient(to bottom, black, rgb(26, 26, 26));
+    margin: 0 auto;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+}
+
+.back-end .info_text {
+    margin-left: 2em;
+}
+
+.back-end .swiper {
+    margin-left: 0.5em;
+}
+
 @media screen and (max-width: 480px) {
   .cabecalho {
     flex-direction: column;
@@ -114,7 +206,7 @@ body {
     margin-left: 2em;
   }
 
-  .intro_text {
+  .info_text {
     max-width: 20em;
   }
 

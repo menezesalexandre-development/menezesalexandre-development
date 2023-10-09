@@ -22,10 +22,17 @@
                 <li><a href="#">SOBRE</a></li>
             </ul>
         </div>
+        <div class="social">
+            <ul>
+                <li><a href="https://github.com/menezesalexandre-development" target="_blank"><img src="img/icons/bxl-github.png" alt="GitHub"></a></li>
+                <li><a href="https://www.linkedin.com/in/alexandre-m-menezes-silva-836191289/" target="_blank"><img src="img/icons/bxl-linkedin-square.png" alt="LinkedIn"></a></li>
+                <li><a href="https://www.upwork.com/freelancers/~018421fe5c76db8eb8" target="_blank"><img src="img/icons/bxl-upwork.png" alt="Upwork"></a></li>
+            </ul>
+        </div>
     </header>
 
     <section class="intro">
-        <div class="intro_text">
+        <div class="info_text">
             <div id="intro_ola_mundo">
                 <h2>Olá, Mundo!</h2>
             </div>
@@ -37,8 +44,8 @@
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
               <!-- Slides -->
-              <div class="swiper-slide"><img src="img/dev_front-end.png" alt="Aston Martin"></div>
-              <div class="swiper-slide"><img src="img/dev_back-end.png" alt="Audi RS E-Tron"></div>
+              <div class="swiper-slide"><img src="img/dev_front-end.png" alt="Dev Front-End"></div>
+              <div class="swiper-slide"><img src="img/dev_back-end.png" alt="Dev Bakc-End"></div>
             </div>
             <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
@@ -47,7 +54,7 @@
         <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     
         <script>
-            const swiper = new Swiper('.swiper', {
+            const swiper_principal = new Swiper('.swiper', {
                 autoplay: {
                 delay: 1800,
                 disableOnInteraction: false,
@@ -71,8 +78,94 @@
         </script>
     </section>
 
-    <section>
-        
+    <section class="front-end">
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="img/dev_front-end.png" alt="Dev Front-End"></div>
+              <div class="swiper-slide"><img src="img/dev_back-end.png" alt="Dev Bakc-End"></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    
+        <script>
+            const swiper_front_end = new Swiper('.swiper', {
+                autoplay: {
+                delay: 1800,
+                disableOnInteraction: false,
+                },
+                
+                // Optional parameters
+                loop: true,
+            
+                // If we need pagination
+                pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                },
+            
+                // Navigation arrows
+                navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+        </script>
+        <div class="info_text">
+            <h3 id="desenvolvimento1">Desenvolvimento</h3>
+            <h2 id="front-end1">FRONT-END</h2>
+            <p>No portfólio front-end, insiro criatividade em interfaces impactantes usando HTML, CSS e JavaScript, incluindo frameworks modernos. Explore para descobrir como transformo conceitos em experiências envolventes, destacando-me pela combinação única de habilidades técnicas.</p>
+            <button type="button" value="Ver Mais">Ver Mais</button>
+        </div>
+    </section>
+
+    <section class="back-end">
+        <div class="info_text">
+            <h3 id="desenvolvimento2">Desenvolvimento</h3>
+            <h2 id="front-end2">BACK-END</h2>
+            <p>No portfólio back-end, destaco minha dedicação ao desenvolvimento back-end. Especializado em Python, crio sistemas eficientes, integrando o MySQL para gerenciamento seguro de dados. Explore para descobrir como transformo desafios em soluções digitais sólidas, unindo habilidades técnicas e visão estratégica.</p>
+            <button type="button" value="Ver Mais">Ver Mais</button>
+        </div>
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="img/dev_front-end.png" alt="Dev Front-End"></div>
+              <div class="swiper-slide"><img src="img/dev_back-end.png" alt="Dev Bakc-End"></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    
+        <script>
+            const swiper_back_end = new Swiper('.swiper', {
+                autoplay: {
+                delay: 1800,
+                disableOnInteraction: false,
+                },
+                
+                // Optional parameters
+                loop: true,
+            
+                // If we need pagination
+                pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                },
+            
+                // Navigation arrows
+                navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+        </script>
     </section>
 </body>
 </html>
