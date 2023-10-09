@@ -6,11 +6,8 @@
 
 body {
     margin: 0 auto;
-    background-image: url(img/background3.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-image: linear-gradient(to bottom, rgb(2, 0, 27) 10%, black 20%);
+    background-repeat: no-repeat;
 }
 
 .elements {
@@ -18,7 +15,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 0 auto;
+    margin: 0 auto;   
 }
 
 .cabecalho {
@@ -27,13 +24,34 @@ body {
     padding: 0;
     margin: 0 auto;
     justify-content: space-around;
-    background-image: linear-gradient(to bottom, rgb(1, 0, 15) 20%, transparent);
 }
 
 .title {
     color: white;
-    margin-top: 1.8em;
+    margin-top: 0em;
     filter: drop-shadow(1px 1px 5px #000000);
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.6em;
+}
+
+.title h1 {
+    font-size: 1.5em;
+}
+
+.title h2 {
+    font-size: 2.1em;
+    margin-top: 0.32em;
+}
+
+.title a:hover, .title h1:hover {
+    transition: 0.1s linear;
+    filter: drop-shadow(1px 1px 50px #ffffff);
+}
+
+.title a {
+    text-decoration: none;
+    color: white;
 }
 
 .title img:hover {
@@ -76,10 +94,12 @@ body {
 }
 
 .intro {
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
-    margin-top: 3em;
-    margin-bottom: 4em;
+    padding-top: 3em;
+    padding-bottom: 4em;
+    
 }
 
 .intro .info_text {
@@ -140,6 +160,8 @@ body {
     height: fit-content;
     border-radius: 2em;
     box-sizing: border-box;
+    border: 2px solid white;
+    background-color: white;
 }
 
 .swiper-slide img {
@@ -177,7 +199,7 @@ button:hover {
 }
 
 .front-end {
-    background-image: linear-gradient(to bottom, rgb(255, 217, 0), rgb(0, 0, 0));
+    background-image: linear-gradient(to top, rgb(2, 0, 27), black);
     margin: 0 auto;
     padding: 2em;
     padding-right: 3em;
@@ -190,6 +212,11 @@ button:hover {
     margin-top: 0.6em;
     margin-bottom: 0em;
     margin-left: 2em;
+    filter: drop-shadow(1px 1px 5px #000000);
+}
+
+.front-end #front-end1 {
+    margin-left: 0.5em;
 }
 
 .front-end h2, .back-end h2 {
@@ -207,7 +234,7 @@ button:hover {
 }
 
 .back-end {
-    background-image: linear-gradient(to bottom, black, rgb(26, 26, 26));
+    background-image: linear-gradient(to bottom, rgb(2, 0, 27), black);
     margin: 0 auto;
     padding: 2em;
     display: flex;
