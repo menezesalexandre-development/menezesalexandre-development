@@ -78,6 +78,10 @@ body {
     margin-left: 2em;
 }
 
+.intro button {
+    margin-left: 11em;
+}
+
 .info_text {
     max-width: 37em;
 }
@@ -138,6 +142,11 @@ body {
     color: white;
 }
 
+.front-end .swiper, .back-end .swiper, .front-end .swiper-slide img, .back-end .swiper-slide img {
+    width: 40em;
+    margin-right: 5em;
+}
+
 button {
     background-color: black;
     color: white;
@@ -168,17 +177,17 @@ button:hover {
     font-size: 3em;
     margin-top: 0.6em;
     margin-bottom: 0em;
-    margin-left: 1.9em;
+    margin-left: 2em;
 }
 
 .front-end h2, .back-end h2 {
     margin-top: 0em;
     font-size: 5em;
-    margin-left: 0.7em;
+    margin-left: 1em;
 }
 
-.front-end p {
-    margin-left: 0.7em;
+.front-end .info_text {
+    margin-left: 0em;
 }
 
 .back-end {
