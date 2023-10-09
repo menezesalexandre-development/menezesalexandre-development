@@ -13,6 +13,14 @@ body {
     background-size: cover;
 }
 
+.elements {
+    max-width: 1920px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
 .cabecalho {
     display: flex;
     flex-direction: row;
@@ -142,6 +150,10 @@ body {
     color: white;
 }
 
+.intro .swiper {
+    margin-left: 2em;
+}
+
 .front-end .swiper, .back-end .swiper, .front-end .swiper-slide img, .back-end .swiper-slide img {
     width: 40em;
     margin-right: 5em;
@@ -188,6 +200,10 @@ button:hover {
 
 .front-end .info_text {
     margin-left: 0em;
+}
+
+#elements_back-end {
+    padding-left: 2em;
 }
 
 .back-end {
