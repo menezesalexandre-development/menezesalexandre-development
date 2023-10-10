@@ -5,9 +5,11 @@
 }
 
 body {
+    min-height: 100%;
     margin: 0 auto;
     background-image: linear-gradient(to bottom, rgb(2, 0, 27) 10%, black 20%);
     background-repeat: no-repeat;
+    padding: 0em;
 }
 
 .elements {
@@ -26,6 +28,15 @@ body {
     justify-content: space-around;
 }
 
+.rodape {
+    background-image: linear-gradient(to top, rgb(2, 0, 27) 20%, black);
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
 .title {
     color: white;
     margin-top: 0em;
@@ -37,6 +48,7 @@ body {
 
 .title h1 {
     font-size: 1.5em;
+
 }
 
 .title h2 {
@@ -182,14 +194,15 @@ body {
 }
 
 button {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 1em;
     padding-right: 3em;
     padding-left: 3em;
     border: none;
     border-radius: 20px;
     margin-left: 13.5em;
+    font-weight: bold;
 }
 
 button:hover {
@@ -247,6 +260,12 @@ button:hover {
 
 .back-end .swiper {
     margin-left: 0.5em;
+}
+
+/*PÁGINAS: FRONT-END E BACK-END*/
+.title2 {
+    color: white;
+    text-align: center;
 }
 
 @media screen and (max-width: 480px) {

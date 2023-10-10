@@ -6,9 +6,9 @@ const cabecalho = `<div class="title">
 </div>
 <div class="navbar">
   <ul>
-    <li><a href="#">FRONT-END</a></li>
-    <li><a href="#">BACK-END</a></li>
-    <li><a href="#">SOBRE</a></li>
+    <li><a href="frontend.html">FRONT-END</a></li>
+    <li><a href="backend.html">BACK-END</a></li>
+    <li><a href="sobre.html">SOBRE</a></li>
   </ul>
 </div>
 <div class="social">
@@ -38,6 +38,3 @@ const cabecalho = `<div class="title">
 </div>`
 
 document.getElementById('cabecalho').innerHTML = cabecalho;
-
-
-//CONSTANTE - RODAPE:
