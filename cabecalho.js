@@ -1,14 +1,14 @@
 //CONSTANTE - CABEÇALHO:
 const cabecalho = `<div class="title">
-  <a href="#"><h2><</h2></a>
-  <a href="#"><h1>menezesalexandre_dev</h1></a>
-  <a href="#"><h2>></h2></a>
+  <a href="index.html" target="_blank"><h2><</h2></a>
+  <a href="index.html" target="_blank"><h1>menezesalexandre_dev</h1></a>
+  <a href="index.html" target="_blank"><h2>></h2></a>
 </div>
 <div class="navbar">
   <ul>
-    <li><a href="frontend.html">FRONT-END</a></li>
-    <li><a href="backend.html">BACK-END</a></li>
-    <li><a href="sobre.html">SOBRE</a></li>
+    <li><a href="frontend.html" target="_blank">FRONT-END</a></li>
+    <li><a href="backend.html" target="_blank">BACK-END</a></li>
+    <li><a href="sobre.html" target="_blank">SOBRE</a></li>
   </ul>
 </div>
 <div class="social">

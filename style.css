@@ -12,6 +12,11 @@ body {
     padding: 0em;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .elements {
     max-width: 1920px;
     display: flex;
@@ -266,23 +271,4 @@ button:hover {
 .title2 {
     color: white;
     text-align: center;
-}
-
-@media screen and (max-width: 480px) {
-  .cabecalho {
-    flex-direction: column;
-  }
-
-  .cabecalho img {
-    margin-left: 2em;
-  }
-
-  .info_text {
-    max-width: 20em;
-  }
-
-  #intro_ola_mundo {
-    font-size: 0.4em;
-    margin-left: 6em;
-  }
 }
