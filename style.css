@@ -54,19 +54,24 @@ body {
 /*SEÇÃO - INTRO*/
 .intro {
     margin: 0 auto;
-    padding: 1em;
+    padding: 0em;
     display: flex;
     flex-direction: row;
     font-family: monospace;
-    
+    justify-content: space-between;
+    max-width: 1366px;
 }
 .intro div {
-    margin: 0 auto;
+    margin-left: 10em;
+    margin-right: 10em;
     padding: 1em;
     max-width: 30em;
 }
 .intro h1 {
-    
+    font-size: 4em;
+}
+.intro h2 {
+    font-size: 2em;
 }
 
 /*FOOTER - RODAPÉ*/
