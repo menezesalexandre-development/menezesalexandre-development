@@ -1,12 +1,5 @@
 // CONSTANTE - RODAPÉ:
-const rodape = `<div class="navbar">
-<ul>
-  <li><a href="frontend.html" target="_blank">FRONT-END</a></li>
-  <li><a href="backend.html" target="_blank">BACK-END</a></li>
-  <li><a href="sobre.html" target="_blank">SOBRE</a></li>
-</ul>
-</div>
-<div class="social">
+const rodape = `<div class="social">
 <ul>
   <li>
     <a
