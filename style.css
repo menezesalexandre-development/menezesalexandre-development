@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, li {
     color: white;
 }
 body {
     margin: 0 auto;
     background: rgb(0,2,47);
-    background: linear-gradient(to bottom, rgb(0, 2, 31) 0%, rgba(0,0,0,1) 50%, rgb(0, 2, 31) 100%);
+    background: linear-gradient(to bottom, rgb(0, 1, 26) 0%, rgba(0,0,0,1) 50%, rgb(0, 1, 26) 100%);
     background-repeat: no-repeat;
     padding: 0em;
 }
@@ -34,7 +34,7 @@ body {
     margin-top: 0.15em;
 }
 .title:hover {
-    transition: 0.1s linear;
+    transition: 0.2s linear;
     filter: drop-shadow(1px 1px 50px #ffffff);
 }
 .title a {
@@ -48,30 +48,67 @@ body {
 }
 .social a:hover {
     filter: drop-shadow(1px 1px 10px #ffffff);
-    transition: 0.5s linear;
+    transition: 0.2s linear;
 }
 
 /*SEÇÃO - INTRO*/
 .intro {
-    margin: 0 auto;
-    padding: 0em;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    padding-left: 10em;
+    padding-right: 10em;
     display: flex;
     flex-direction: row;
     font-family: monospace;
     justify-content: space-between;
-    max-width: 1366px;
+    max-width: 1280px;
+}
+.intro a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+.intro a:hover {
+    cursor: pointer;
+    transition: 0.2s linear;
+    filter: drop-shadow(1px 1px 25px #ffffff);
+    font-size: 1.2em;
+}
+.intro button {
+    margin-left: 13em;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 0.7em;
+    border: none;
+    border-radius: 1em;
+}
+.intro button:hover {
+    filter: drop-shadow(0px 0px 2px #ffffff);
+}
+.intro button a {
+    color: #000000;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.1em;
 }
 .intro div {
-    margin-left: 10em;
-    margin-right: 10em;
-    padding: 1em;
-    max-width: 30em;
+    max-width: 40em;
+    justify-content: flex-start;
 }
 .intro h1 {
     font-size: 4em;
 }
 .intro h2 {
     font-size: 2em;
+}
+.intro ul {
+    list-style-type: none;
+}
+.intro_projetos {
+    padding: 2em;
 }
 
 /*FOOTER - RODAPÉ*/

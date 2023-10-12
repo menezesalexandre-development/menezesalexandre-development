@@ -1,8 +1,8 @@
 //CONSTANTE - CABEÇALHO:
 const cabecalho = `<div class="title">
-  <a href="index.html" target="_blank"><h2><</h2></a>
-  <a href="index.html" target="_blank"><h1>menezesalexandre_dev</h1></a>
-  <a href="index.html" target="_blank"><h2>></h2></a>
+  <a href="index.html" target="_self"><h2><</h2></a>
+  <a href="index.html" target="_self"><h1>menezesalexandre_dev</h1></a>
+  <a href="index.html" target="_self"><h2>></h2></a>
 </div>
 <div class="social">
   <ul>
