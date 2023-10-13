@@ -46,6 +46,10 @@ body {
     margin: 0.15em;
     filter: drop-shadow(1px 1px 5px #000000);
 }
+.social img {
+    width: 1.5em;
+    height: 1.5em;
+}
 .social a:hover {
     filter: drop-shadow(1px 1px 10px #ffffff);
     transition: 0.2s linear;
@@ -121,8 +125,8 @@ body {
     justify-content: space-around;
 }
 .languages img{
-    width: 30px;
-    height: 30px;
+    width: 1.875em;
+    height: 1.875em;
     filter: drop-shadow(0px 0px 0px #000000);
     border-radius: 0px;
 }
@@ -147,7 +151,7 @@ body {
 .project_card img {
     margin: 0 auto;
     width: 12.9em;
-    height: 8.5em;
+    height: 7.1em;
     border-radius: 1em;
 }
 .project_card {
