@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h1, h2, h3, h4, h5, h6, p, li {
+    color: white;
+}
+body {
+    margin: 0 auto;
+    background: rgb(0,2,47);
+    background: linear-gradient(to bottom, rgb(0, 1, 26) 0%, rgba(0,0,0,1) 50%, rgb(0, 1, 26) 100%);
+    background-repeat: no-repeat;
+    padding: 0em;
+}
+
+/*HEADER - CABEÇALHO*/
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    padding: 0em;
+    margin: 0 auto;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+}
+.title {
+    color: white;
+    filter: drop-shadow(1px 1px 5px #000000);
+    display: flex;
+    flex-direction: row;
+}
+.title h1 {
+    font-size: 1.2em;
+}
+.title h2 {
+    font-size: 2em;
+    margin-top: 0.15em;
+}
+.title:hover {
+    transition: 0.2s linear;
+    filter: drop-shadow(1px 1px 50px #ffffff);
+}
+.title a {
+    text-decoration: none;
+    color: white;
+}
+.social li{
+    display: inline-block;
+    margin: 0.15em;
+    filter: drop-shadow(1px 1px 5px #000000);
+}
+.social a:hover {
+    filter: drop-shadow(1px 1px 10px #ffffff);
+    transition: 0.2s linear;
+}
+
+/*SEÇÃO - INTRO*/
+.intro {
+    margin: 0 auto;
+    padding: 0 4.5em;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1280px;
+}
+.intro div {
+    max-width: 40em;
+}
+.intro h1 {
+    font-family: monospace;
+    font-size: 4em;
+    text-align: center;
+}
+.intro p {
+    text-align: center;
+}
+.intro_texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.intro_texto button {
+    margin: 0 1em;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 0.7em;
+    border: none;
+    border-radius: 1em;
+}
+.intro_texto button:hover {
+    filter: drop-shadow(0px 0px 2px #ffffff);
+}
+.intro_texto button a {
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+.intro_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.intro_image {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    padding: 1em;
+    background-color: #ffffff;
+    border-radius: 1em;
+}
+.intro_image img {
+    border-radius: 1em;
+    width: 500px;
+    height: 300px;
+    filter: drop-shadow(0px 0px 10px #000000);
+}
+.languages {
+    background-color: #ffffff;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.languages img{
+    width: 30px;
+    height: 30px;
+    filter: drop-shadow(0px 0px 0px #000000);
+    border-radius: 0px;
+}
+
+/*SEÇÃO - PROJECTS*/
+.projects {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+.projects h1 {
+    text-align: center;
+    font-size: 4em;
+    font-family: monospace;
+}
+.project_cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 0;
+}
+.project_card img {
+    margin: 0 auto;
+    width: 12.9em;
+    height: 8.5em;
+    border-radius: 1em;
+}
+.project_card {
+    max-width: 20em;
+    padding: 1em;
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: #ffffff 2px solid;
+    border-radius: 1em;
+    background-image: linear-gradient(to bottom, #000, rgb(0, 1, 39));
+}
+.project_card h2 {
+    margin: 0.3em;
+    text-align: center;
+    font-size: 2em;
+    font-family: monospace;
+}
+.project_card p {
+    margin: 0.5em;
+    text-align: center;
+    font-size: 0.7em;
+    font-family: 'Poppins', sans-serif;
+}
+.project_card button {
+    margin: 0 auto;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 0.7em;
+    border: none;
+    border-radius: 1em;
+}
+.project_card button:hover {
+    filter: drop-shadow(0px 0px 2px #ffffff);
+}
+.project_card button a {
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+/*FOOTER - RODAPÉ*/
+.rodape {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0 auto;
+    justify-content: space-around;
+}

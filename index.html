@@ -4,16 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Oficial - menezesalexandre</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
-    />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <!--HEADER - CABEÇALHO-->
     <header class="cabecalho" id="cabecalho">
-      <script src="cabecalho.js"></script>
+      <script src="js/cabecalho.js"></script>
     </header>
 
     <!--SEÇÃO - INTRO-->
@@ -21,35 +17,91 @@
       <div class="intro_texto">
         <h1>Olá, Mundo!</h1>
         <p>Como desenvolvedor Full Stack, sou capacitado para criar soluções completas tanto no front-end quanto no back-end. Com habilidades aprimoradas no front-end para dar vida a interfaces intuitivas e visualmente atrativas, meu foco no desenvolvimento front-end é proporcionar as melhores experiências aos usuários. No back-end, trabalho para desenvolver sistemas robustos e eficientes. Continue explorando o portfólio e descubra mais do meu trabalho.</p>
-        <button><a href="#">Ver Mais</a></button>
+        <div class="intro_buttons">
+          <button id="intro_button1"><a href="#">Mais Sobre</a></button>
+          <button id="intro_button2"><a href="#frontend">Projetos FRONT-END</a></button>
+          <button id="intro_button3"><a href="#backend">Projetos BACK-END</a></button>
+        </div>
       </div>
-      <div class="intro_projetos">
-        <h2>Principais projetos</h2>
-        <!--12 ITENS-->
-        <ul>
-          <li><a href="https://menezesalexandre-development.github.io/email-landing-page-project/" target="_parent">E-Mail Landing Page</a></li>  
-          <li><a href="#" target="_parent">Item</a></li>  
-          <li><a href="#" target="_parent">Item</a></li>  
-          <li><a href="#" target="_parent">Item</a></li>  
-          <li><a href="#" target="_parent">Item</a></li>  
-          <li><a href="#" target="_parent">Item</a></li>  
-          <li><a href="#" target="_parent">Item</a></li>  
-          <li><a href="#" target="_parent">Item</a></li>  
-          <li><a href="#" target="_parent">Item</a></li>  
-          <li><a href="#" target="_parent">Item</a></li> 
-          <li><a href="#" target="_parent">Item</a></li> 
-          <li><a href="#" target="_parent">Item</a></li> 
-        </ul>
+      <div class="intro_image">
+        <div class="languages">
+          <div id="html5"><img src="img/logos/html5-original.svg" alt="HTML5 Logo"></div>
+          <div id="css3"><img src="img/logos/css3-original.svg" alt="CSS3 Logo"></div>
+          <div id="javascript"><img src="img/logos/javascript-original.svg" alt="JavaScript Logo"></div>
+          <div id="python"> <img src="img/logos/python-original.svg" alt="Python Logo"></div>
+          <div id="mysql"><img src="img/logos/mysql-original.svg" alt="MySQL Logo"></div>
+        </div>
+        <div class="intro_gif">
+          <img src="img/gif_intro.gif" alt="Programming GIF">
+        </div>
       </div>
     </section>
 
-    <section class="sobre">
+    <!--FRONT-END-->
+    <section class="projects" id="frontend">
+      <h1>FRONT-END</h1>
+      <div class="project_cards" id="frontend_card">
+        <div class="project_card" id="project_card_1">
+          <img src="img/background3.jpg" alt="">
+          <h2>PROJECT_CARD</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos tempora tenetur saepe dolor repellendus ipsum culpa odio, velit ut ratione facilis commodi, cupiditate id qui rerum voluptatum ea distinctio illum.</p>
+          <button><a href="#">Ver Mais</a></button>
+        </div>
+        <div class="project_card" id="project_card_2">
+          <img src="img/background3.jpg" alt="">
+          <h2>PROJECT_CARD</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos tempora tenetur saepe dolor repellendus ipsum culpa odio, velit ut ratione facilis commodi, cupiditate id qui rerum voluptatum ea distinctio illum.</p>
+          <button><a href="#">Ver Mais</a></button>
+        </div>
+        <div class="project_card" id="project_card_3">
+          <img src="img/background3.jpg" alt="">
+          <h2>PROJECT_CARD</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos tempora tenetur saepe dolor repellendus ipsum culpa odio, velit ut ratione facilis commodi, cupiditate id qui rerum voluptatum ea distinctio illum.</p>
+          <button><a href="#">Ver Mais</a></button>
+        </div>
+        <div class="project_card" id="project_card_4">
+          <img src="img/background3.jpg" alt="">
+          <h2>PROJECT_CARD</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos tempora tenetur saepe dolor repellendus ipsum culpa odio, velit ut ratione facilis commodi, cupiditate id qui rerum voluptatum ea distinctio illum.</p>
+          <button><a href="#">Ver Mais</a></button>
+        </div>
+      </div>
+    </section>
 
+    <!--BACK-END-->
+    <section class="projects" id="backend">
+      <h1>BACK-END</h1>
+      <div class="project_cards" id="backend_cards">
+        <div class="project_card" id="project_card_1">
+          <img src="img/background3.jpg" alt="">
+          <h2>PROJECT_CARD</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos tempora tenetur saepe dolor repellendus ipsum culpa odio, velit ut ratione facilis commodi, cupiditate id qui rerum voluptatum ea distinctio illum.</p>
+          <button><a href="#">Ver Mais</a></button>
+        </div>
+        <div class="project_card" id="project_card_2">
+          <img src="img/background3.jpg" alt="">
+          <h2>PROJECT_CARD</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos tempora tenetur saepe dolor repellendus ipsum culpa odio, velit ut ratione facilis commodi, cupiditate id qui rerum voluptatum ea distinctio illum.</p>
+          <button><a href="#">Ver Mais</a></button>
+        </div>
+        <div class="project_card" id="project_card_3">
+          <img src="img/background3.jpg" alt="">
+          <h2>PROJECT_CARD</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos tempora tenetur saepe dolor repellendus ipsum culpa odio, velit ut ratione facilis commodi, cupiditate id qui rerum voluptatum ea distinctio illum.</p>
+          <button><a href="#">Ver Mais</a></button>
+        </div>
+        <div class="project_card" id="project_card_4">
+          <img src="img/background3.jpg" alt="">
+          <h2>PROJECT_CARD</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos tempora tenetur saepe dolor repellendus ipsum culpa odio, velit ut ratione facilis commodi, cupiditate id qui rerum voluptatum ea distinctio illum.</p>
+          <button><a href="#">Ver Mais</a></button>
+        </div>
+      </div>
     </section>
 
     <!--FOOTER - RODAPÉ-->
     <footer class="rodape" id="rodape">
-        <script src="rodape.js"></script>
+        <script src="js/rodape.js"></script>
     </footer>
   </body>
 </html>
