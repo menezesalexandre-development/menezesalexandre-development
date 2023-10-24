@@ -16,7 +16,7 @@ body {
     display: flex;
     flex-direction: row;
     padding: 0em;
-    margin: 0 auto;
+    margin: auto;
     justify-content: space-around;
     font-family: 'Poppins', sans-serif;
 }
@@ -141,36 +141,42 @@ body {
 .intro_image {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin: 1em;
     padding: 1em;
     background-image: linear-gradient(to bottom, rgb(240, 240, 240), rgb(104, 104, 104));
     border-radius: 1em;
 }
-.intro_image img {
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 1em;
-    width: 500px;
-    height: 300px;
-    filter: drop-shadow(0px 0px 10px #000000);
+}
+.slider {
+    border: #fff solid 0.5em;
+    border-radius: 1em;
     margin: 1em;
+    background-color: white;
 }
-.intro_gif {
-    display: flex;
-    flex-direction: row;
+.slider h1 {
+    margin: 0 auto;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
 }
-.intro_gif svg {
-    margin: auto 0;
+.swiper {
+    margin: 0;
+    width: 40em;
+    height: fit-content;
 }
-.languages {
-    padding: 0.5em;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.swiper-slide img {
+    max-width: 40em;
+    border-radius: 1em;
 }
-.languages img{
-    width: 1.875em;
-    height: 1.875em;
-    filter: drop-shadow(0px 0px 0px #000000);
-    border-radius: 0px;
+.swiper-button-prev, .swiper-button-next {
+    color: white;
 }
 
 /*SEÇÃO - PROJECTS*/
@@ -236,6 +242,7 @@ body {
     font-size: 1.1em;
     text-decoration: none;
 }
+
 
 /*FOOTER - RODAPÉ*/
 .rodape {

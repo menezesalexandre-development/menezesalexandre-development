@@ -4,7 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Oficial - menezesalexandre</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link 
+      rel="stylesheet" 
+      href="css/style.css" 
+    />
+    <link
+      rel="stylesheet"
+      href="css/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <!--HEADER - CABEÇALHO-->
@@ -73,32 +80,26 @@
           </button>
         </div>
       </div>
-      <div class="intro_image">
-        <div class="languages">
-          <div id="html5">
-            <img src="img/logos/html5-original.svg" alt="HTML5 Logo" />
+      
+      <div class="slider">
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><a href="https://menezesalexandre-development.github.io/javascript-slider/"><img src="project_cards_img/slider_com_javascript.png" alt="Slider com JavaScript"></a><h1>SLIDER COM JAVASCRIPT</h1></div>
+            <div class="swiper-slide"><a href="#"><img src="project_cards_img/shalako_hotel_site_oficial.png" alt="Site Oficial do Shalako Hotel"></a><h1>SITE DO SHALAKO HOTEL</h1></div>
           </div>
-          <div id="css3">
-            <img src="img/logos/css3-original.svg" alt="CSS3 Logo" />
-          </div>
-          <div id="javascript">
-            <img
-              src="img/logos/javascript-original.svg"
-              alt="JavaScript Logo"
-            />
-          </div>
-          <div id="python">
-            <img src="img/logos/python-original.svg" alt="Python Logo" />
-          </div>
-          <div id="mysql">
-            <img src="img/logos/mysql-original.svg" alt="MySQL Logo" />
-          </div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
         </div>
-        <div class="intro_gif">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 10, 1);"><path d="m4.431 12.822 13 9A1 1 0 0 0 19 21V3a1 1 0 0 0-1.569-.823l-13 9a1.003 1.003 0 0 0 0 1.645z"></path></svg>
-          <img src="img/gif_intro.gif" alt="Programming GIF" />
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 10, 1);"><path d="M5.536 21.886a1.004 1.004 0 0 0 1.033-.064l13-9a1 1 0 0 0 0-1.644l-13-9A1 1 0 0 0 5 3v18a1 1 0 0 0 .536.886z"></path></svg>
-        </div>
+  
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        
+        <script src="js/slider.js"></script>
+      </div>
       </div>
     </section>
 
@@ -214,7 +215,6 @@
         </div>
       </div>
     </section>
-
     <!--FOOTER - RODAPÉ-->
     <footer class="rodape" id="rodape">
       <div class="social">
