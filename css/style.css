@@ -6,7 +6,7 @@ h1, h2, h3, h4, h5, h6, p, li {
 body {
     margin: 0 auto;
     background: rgb(0,2,47);
-    background: linear-gradient(to bottom, rgb(0, 1, 26) 0%, rgba(0,0,0,1) 50%, rgb(0, 1, 26) 100%);
+    background: linear-gradient(to bottom, rgb(0, 1, 26) 0%, rgba(0,0,0,1) 50%, rgb(0, 1, 41) 100%);
     background-repeat: no-repeat;
     padding: 0em;
 }
@@ -19,6 +19,13 @@ body {
     margin: 0 auto;
     justify-content: space-around;
     font-family: 'Poppins', sans-serif;
+}
+.cabecalho svg {
+    margin: 1em;
+}
+.cabecalho svg:hover {
+    transition: 0.5s linear;
+    filter: drop-shadow(1px 1px 50px #ffffff);
 }
 .title {
     color: white;
@@ -76,6 +83,33 @@ body {
 .intro p {
     text-align: center;
 }
+.intro_profile {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+.intro_profile h1 {
+    font-size: 3em;
+    margin: 0 auto;
+}
+.intro_profile h2 {
+    font-weight: 100;
+    margin: 0 auto;
+}
+.intro_profile img {
+    width: 100px;
+    height: 100px;
+    border: 0.25em solid #fff;
+    border-radius: 100em;
+    margin: 0.5em;
+}
+.intro_details {
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .intro_texto {
     display: flex;
     flex-direction: column;
@@ -91,6 +125,7 @@ body {
 }
 .intro_texto button:hover {
     filter: drop-shadow(0px 0px 2px #ffffff);
+    transition: 0.5s linear;
 }
 .intro_texto button a {
     color: #000000;
@@ -108,7 +143,7 @@ body {
     flex-direction: column;
     margin: 1em;
     padding: 1em;
-    background-color: #ffffff;
+    background-image: linear-gradient(to bottom, rgb(240, 240, 240), rgb(104, 104, 104));
     border-radius: 1em;
 }
 .intro_image img {
@@ -116,9 +151,16 @@ body {
     width: 500px;
     height: 300px;
     filter: drop-shadow(0px 0px 10px #000000);
+    margin: 1em;
+}
+.intro_gif {
+    display: flex;
+    flex-direction: row;
+}
+.intro_gif svg {
+    margin: auto 0;
 }
 .languages {
-    background-color: #ffffff;
     padding: 0.5em;
     display: flex;
     flex-direction: row;
