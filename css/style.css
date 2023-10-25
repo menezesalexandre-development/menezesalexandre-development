@@ -65,7 +65,7 @@ body {
 /*SEÇÃO - INTRO*/
 .intro {
     margin: 0 auto;
-    padding: 0 4.5em;
+    padding: 3.4em;
     display: flex;
     font-family: 'Poppins', sans-serif;
     flex-direction: row;
