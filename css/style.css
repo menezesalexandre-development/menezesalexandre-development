@@ -4,11 +4,12 @@ h1, h2, h3, h4, h5, h6, p, li {
     color: white;
 }
 body {
-    margin: 0 auto;
+    margin: 0;
     background: rgb(0,2,47);
     background: linear-gradient(to bottom, rgb(0, 1, 26) 0%, rgba(0,0,0,1) 50%, rgb(0, 1, 41) 100%);
     background-repeat: no-repeat;
     padding: 0em;
+    height: 100vh;
 }
 
 /*HEADER - CABEÇALHO*/
@@ -20,10 +21,10 @@ body {
     justify-content: space-around;
     font-family: 'Poppins', sans-serif;
 }
-.cabecalho svg {
+#menu_svg svg {
     margin: 1em;
 }
-.cabecalho svg:hover {
+#menu_svg svg:hover {
     transition: 0.5s linear;
     filter: drop-shadow(1px 1px 50px #ffffff);
 }
@@ -53,7 +54,7 @@ body {
     margin: 0.15em;
     filter: drop-shadow(1px 1px 5px #000000);
 }
-.social img {
+.social img, svg {
     width: 1.5em;
     height: 1.5em;
 }
@@ -178,77 +179,17 @@ body {
 .swiper-button-prev, .swiper-button-next {
     color: white;
 }
-
-/*SEÇÃO - PROJECTS*/
-.projects {
+.intro_texto .social {
     margin: 0 auto;
-    max-width: 1280px;
 }
-.projects h1 {
-    text-align: center;
-    font-size: 4em;
-    font-family: monospace;
-}
-.project_cards {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 0 auto;
-    padding: 0;
-}
-.project_card img {
-    margin: 0 auto;
-    width: 12.9em;
-    height: 7.1em;
+.social_button {
+    background-color: white;
+    padding: 0.5em;
     border-radius: 1em;
+    margin: 0 1em;
 }
-.project_card {
-    max-width: 20em;
-    padding: 1em;
-    margin: 2em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border: #ffffff 2px solid;
-    border-radius: 1em;
-    background-image: linear-gradient(to bottom, #000, rgb(0, 1, 39));
-}
-.project_card h2 {
-    margin: 0.3em;
-    text-align: center;
-    font-size: 2em;
-    font-family: monospace;
-}
-.project_card p {
-    margin: 0.5em;
-    text-align: center;
-    font-size: 0.7em;
-    font-family: 'Poppins', sans-serif;
-}
-.project_card button {
-    margin: 0 auto;
+a:-webkit-any-link{
     color: #000000;
-    background-color: #ffffff;
-    padding: 0.7em;
-    border: none;
-    border-radius: 1em;
-}
-.project_card button:hover {
-    filter: drop-shadow(0px 0px 2px #ffffff);
-}
-.project_card button a {
-    color: #000000;
-    font-weight: bold;
-    font-size: 1.1em;
     text-decoration: none;
-}
-
-
-/*FOOTER - RODAPÉ*/
-.rodape {
-    display: flex;
-    flex-direction: row;
-    padding: 0;
-    margin: 0 auto;
-    justify-content: space-around;
+    font-weight: bold;
 }

@@ -24,32 +24,25 @@
       <div class="social">
         <ul>
           <li>
+            <a id="social_email" href="" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4.7-8 5.334L4 8.7V6.297l8 5.333 8-5.333V8.7z"></path></svg></a>
+          </li>
+          <li>
             <a
               id="social_github"
               href="https://github.com/menezesalexandre-development"
               target="_blank"
-              ><img src="img/icons/bxl-github.png" alt="GitHub"
-            /></a>
+              ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z"></path></svg></a>
           </li>
           <li>
             <a
               id="social_linkedin"
               href="https://www.linkedin.com/in/alexandre-m-menezes-silva-836191289/"
               target="_blank"
-              ><img src="img/icons/bxl-linkedin-square.png" alt="LinkedIn"
-            /></a>
-          </li>
-          <li>
-            <a
-              id="social_upwork"
-              href="https://www.upwork.com/freelancers/~018421fe5c76db8eb8"
-              target="_blank"
-              ><img src="img/icons/bxl-upwork.png" alt="Upwork"
-            /></a>
+              ><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM8.339 18.337H5.667v-8.59h2.672v8.59zM7.003 8.574a1.548 1.548 0 1 1 0-3.096 1.548 1.548 0 0 1 0 3.096zm11.335 9.763h-2.669V14.16c0-.996-.018-2.277-1.388-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248h-2.667v-8.59h2.56v1.174h.037c.355-.675 1.227-1.387 2.524-1.387 2.704 0 3.203 1.778 3.203 4.092v4.71z"></path></svg></a>
           </li>
         </ul>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg>
+      <svg id="menu_svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg>
     </header>
 
     <!--SEÇÃO - INTRO-->
@@ -70,14 +63,29 @@
           trabalho para desenvolver sistemas robustos e eficientes. Continue
           explorando o portfólio e descubra mais do meu trabalho.
         </p>
-        <div class="intro_buttons">
-          <button id="intro_button1"><a href="#">Currículo</a></button>
-          <button id="intro_button2">
-            <a href="#frontend">Projetos FRONT-END</a>
-          </button>
-          <button id="intro_button3">
-            <a href="#backend">Projetos BACK-END</a>
-          </button>
+        <div class="social">
+          <ul>
+            <li>
+              <a href="mailto:alexandremmnzssilva2509@gmail.com" class="social_button" id="social_email" target="_blank">E-Mail</a>
+            </li>
+            <li>
+              <a
+                class="social_button"
+                id="social_github"
+                href="https://github.com/menezesalexandre-development"
+                target="_blank"
+                >GitHub</a>
+            </li>
+            <li>
+              <a
+                class="social_button"
+                id="social_linkedin"
+                href="https://www.linkedin.com/in/alexandre-m-menezes-silva-836191289/"
+                target="_blank"
+                >LinkedIn</a>
+            </li>
+          </ul>
+        </div>
         </div>
       </div>
       
@@ -102,146 +110,5 @@
       </div>
       </div>
     </section>
-
-    <!--FRONT-END-->
-    <section class="projects" id="frontend">
-      <h1>FRONT-END</h1>
-      <div class="project_cards" id="frontend_card">
-        <div class="project_card" id="project_card_1">
-          <img
-            src="project_cards_img/slider_com_javascript.png"
-            alt="Slider com JavaScript"
-          />
-          <h2>SLIDER COM JAVASCRIPT</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-            tempora tenetur saepe dolor repellendus ipsum culpa odio, velit ut
-            ratione facilis commodi, cupiditate id qui rerum voluptatum ea
-            distinctio illum.
-          </p>
-          <button>
-            <a
-              href="https://menezesalexandre-development.github.io/javascript-slider/"
-              >Ver Projeto</a
-            >
-          </button>
-        </div>
-        <div class="project_card" id="project_card_2">
-          <img src="project_cards_img/shalako_hotel_site_oficial.png" alt="" />
-          <h2>SHALAKO HOTEL SITE OFICIAL</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-            tempora tenetur saepe dolor repellendus ipsum culpa odio, velit ut
-            ratione facilis commodi, cupiditate id qui rerum voluptatum ea
-            distinctio illum.
-          </p>
-          <button><a href="#">Ver Projeto</a></button>
-        </div>
-        <div class="project_card" id="project_card_3">
-          <img
-            src="project_cards_img/email-landing-page.png"
-            alt="Email Landing Page"
-          />
-          <h2>EMAIL LANDING PAGE</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-            tempora tenetur saepe dolor repellendus ipsum culpa odio, velit ut
-            ratione facilis commodi, cupiditate id qui rerum voluptatum ea
-            distinctio illum.
-          </p>
-          <button><a href="#">Ver Mais</a></button>
-        </div>
-        <div class="project_card" id="project_card_4">
-          <img src="img/background3.jpg" alt="" />
-          <h2>PROJECT_CARD</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-            tempora tenetur saepe dolor repellendus ipsum culpa odio, velit ut
-            ratione facilis commodi, cupiditate id qui rerum voluptatum ea
-            distinctio illum.
-          </p>
-          <button><a href="#">Ver Mais</a></button>
-        </div>
-      </div>
-    </section>
-
-    <!--BACK-END-->
-    <section class="projects" id="backend">
-      <h1>BACK-END</h1>
-      <div class="project_cards" id="backend_cards">
-        <div class="project_card" id="project_card_1">
-          <img src="img/background3.jpg" alt="" />
-          <h2>PROJECT_CARD</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-            tempora tenetur saepe dolor repellendus ipsum culpa odio, velit ut
-            ratione facilis commodi, cupiditate id qui rerum voluptatum ea
-            distinctio illum.
-          </p>
-          <button><a href="#">Ver Mais</a></button>
-        </div>
-        <div class="project_card" id="project_card_2">
-          <img src="img/background3.jpg" alt="" />
-          <h2>PROJECT_CARD</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-            tempora tenetur saepe dolor repellendus ipsum culpa odio, velit ut
-            ratione facilis commodi, cupiditate id qui rerum voluptatum ea
-            distinctio illum.
-          </p>
-          <button><a href="#">Ver Mais</a></button>
-        </div>
-        <div class="project_card" id="project_card_3">
-          <img src="img/background3.jpg" alt="" />
-          <h2>PROJECT_CARD</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-            tempora tenetur saepe dolor repellendus ipsum culpa odio, velit ut
-            ratione facilis commodi, cupiditate id qui rerum voluptatum ea
-            distinctio illum.
-          </p>
-          <button><a href="#">Ver Mais</a></button>
-        </div>
-        <div class="project_card" id="project_card_4">
-          <img src="img/background3.jpg" alt="" />
-          <h2>PROJECT_CARD</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-            tempora tenetur saepe dolor repellendus ipsum culpa odio, velit ut
-            ratione facilis commodi, cupiditate id qui rerum voluptatum ea
-            distinctio illum.
-          </p>
-          <button><a href="#">Ver Mais</a></button>
-        </div>
-      </div>
-    </section>
-    <!--FOOTER - RODAPÉ-->
-    <footer class="rodape" id="rodape">
-      <div class="social">
-        <ul>
-          <li>
-            <a
-              href="https://github.com/menezesalexandre-development"
-              target="_blank"
-              ><img src="img/icons/bxl-github.png" alt="GitHub"
-            /></a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/alexandre-m-menezes-silva-836191289/"
-              target="_blank"
-              ><img src="img/icons/bxl-linkedin-square.png" alt="LinkedIn"
-            /></a>
-          </li>
-          <li>
-            <a
-              href="https://www.upwork.com/freelancers/~018421fe5c76db8eb8"
-              target="_blank"
-              ><img src="img/icons/bxl-upwork.png" alt="Upwork"
-            /></a>
-          </li>
-        </ul>
-      </div>
-    </footer>
   </body>
 </html>
