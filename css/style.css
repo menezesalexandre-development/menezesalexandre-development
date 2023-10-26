@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-h1, h2, h3, h4, h5, h6, p, li {
-    color: white;
+* {
+    font-family: 'Poppins', sans-serif;
 }
 body {
     margin: 0;
-    background: rgb(0,2,47);
-    background: linear-gradient(to bottom, rgb(0, 1, 26) 0%, rgba(0,0,0,1) 50%, rgb(0, 1, 41) 100%);
-    background-repeat: no-repeat;
+    background: linear-gradient(to bottom, rgb(0, 1, 41) 0%, rgba(0,0,0,1) 50%, rgb(0, 1, 41) 100%);
     padding: 0em;
     height: 100vh;
+}
+section {
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 /*HEADER - CABEÇALHO*/
@@ -21,13 +23,6 @@ body {
     justify-content: space-around;
     font-family: 'Poppins', sans-serif;
 }
-.menu_svg svg {
-    margin: 1em;
-}
-.menu_svg svg:hover {
-    transition: 0.5s linear;
-    filter: drop-shadow(1px 1px 50px #ffffff);
-}
 .title {
     color: white;
     filter: drop-shadow(1px 1px 5px #000000);
@@ -36,10 +31,12 @@ body {
 }
 .title h1 {
     font-size: 1.2em;
+    color: #fff;
 }
 .title h2 {
     font-size: 2em;
     margin-top: 0.15em;
+    color: #fff;
 }
 .title:hover {
     transition: 0.2s linear;
@@ -72,6 +69,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     max-width: 1280px;
+    color: #fff;
 }
 .intro div {
     max-width: 40em;
@@ -115,6 +113,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 1em;
 }
 .intro_texto button {
     margin: 0 1em;
@@ -166,32 +165,74 @@ a:-webkit-any-link{
     margin: 0 auto;
     padding: 0.5em;
 }
+
+/*EXPERIÊNCIA-TEXTO*/
+.experiencia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3.4em;
+    text-align: center;
+    color: #fff;
+}
+.experiencia_texto {
+    padding: 1em;
+}
+.experiencia h1 {
+    font-size: 2.5em;
+    margin: 0 auto;
+}
+
+/*PROJETOS*/
+.projetos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 3.4em;
+    text-align: center;
+}
+.projetos_front, .projetos_back {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.projetos_text {
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+.projetos_text h1 {
+    font-size: 2.2em;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+}
 .container {
-    width: 100%;
+    margin: 0 auto;
+    max-width: 30em;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 1em;
+    background-color: #fff;
+    padding: 0.5em;
+}
+.container h1 {
+    margin: 0 auto;
 }
 .slider {
-    border: #fff solid 0.5em;
     border-radius: 1em;
     margin: 1em;
-    background-color: white;
-}
-.slider h1 {
-    margin: 0 auto;
-    color: black;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.5em;
 }
 .swiper {
     margin: 0;
-    width: 40em;
+    width: 30em;
     height: fit-content;
 }
 .swiper-slide img {
-    max-width: 40em;
+    max-width: 30em;
     border-radius: 1em;
 }
 .swiper-button-prev, .swiper-button-next {
