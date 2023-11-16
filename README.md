@@ -7,9 +7,9 @@
   <img align="center" alt="Git" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"> 
 </p>
 
-<p>:man_technologist: Desenvolvedor Full Stack com expertise em HTML, CSS e JavaScript, Python, SQL e Git. Proficiente para desenvolvimento completo, integrando front-end, para criação de páginas e interfaces para proporcionar uma boa experiência para usuário, com back-end, para o desenvolvimento do funcionamento dos softwares e tudo por trás do front-end, juntamente com Git para o versionamento de software.</p>
+<p>:man_technologist: Desenvolvedor Full Stack com expertise em Python e SQL. Proficiente para o desenvolvimento completo, integrando o back-end utilizando Python para criar o funcionamento dos softwares, gerenciando dados, lógica de negócios e segurança. Domínio em SQL para manipulação de bancos de dados e Git para versionamento de software.</p>
 
-<p>👨‍💻 Full Stack developer with expertise in HTML, CSS and JavaScript, Python, SQL and Git. Proficient for full development, integrating front-end, for creating pages and interfaces to provide a good user experience, with back-end, for developing the functioning of software and everything behind the front-endend, along with Git for software versioning.</p>
+<p>👨‍💻 Full Stack developer with expertise in Python and SQL. Proficient in complete development, integrating the back-end using Python to create software functionality, managing data, business logic, and security. Proficiency in SQL for database manipulation and Git for software version control.</p>
 
 <div>
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=menezesalexandre-development&show_icons=true&locale=en&layout=compact" alt="menezesalexandre" /></p>
