@@ -1,3 +1,230 @@
-@media screen and (min-width: 320px) {
-    
+@media screen and (max-width: 1281px) {
+    .intro, section {
+        max-width: 1024px;
+    }
+
+    .projetos_text h1 {
+        font-size: 2.1em;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .intro, section {
+        max-width: 1024px;
+    }
+    .intro {
+        padding: 0.2em;
+        justify-content: space-around;
+    }
+    .intro_profile h1 {
+        font-size: 2em;
+    }
+    .intro_profile h2 {
+        font-size: 1em;
+    }
+    .intro_texto p {
+        max-width: 30em;
+    }
+    .intro_texto {
+        justify-content: center;
+    }
+    .intro img {
+        width: 29em;
+        height: 29em;
+    }
+    .intro_profile img {
+        width: 5em;
+        height: 5em;
+    }
+    .intro_profile {
+        align-items: center;
+    }
+    .experiencia {
+        padding: 0.1em;
+    }
+    .experiencia_texto p {
+        font-size: 1em;
+    }
+    .experiencia img {
+        width: 29em;
+        height: 29em;
+    }
+    .experiencia_texto {
+        padding: 1em;
+    }
+    .projetos {
+        padding: 0.2em;
+    }
+    .projetos_text h1 {
+        font-size: 1.8em;
+    }
+    .swiper {
+        width: 30em;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .intro, section {
+        max-width: 768px;
+    }
+    .intro_texto p {
+        font-size: 0.9em;
+    }
+    .intro img {
+        width: 20em;
+        height: 20em;
+        margin: auto 0;
+    }
+    .intro_profile img {
+        width: 5em;
+        height: 5em;
+    }
+    .experiencia_texto {
+        padding: 0.5em;
+    }
+    .experiencia_texto h1 {
+        font-size: 2em;
+    } 
+    .experiencia_texto p {
+        font-size: 0.9em;
+    }
+    .experiencia img {
+        width: 20em;
+        height: 20em;
+        margin: auto 0;
+    }
+    .swiper {
+        width: 20em;
+    }
+    .swiper img {
+        width: 20em;
+    }
+    .container {
+        padding: 0.2em;
+    }
+    .container h1 {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 577px) {
+    .intro, section {
+        max-width: 576px;
+    }
+    .intro {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .intro_profile {
+        margin: 0 auto;
+    }
+    #programmer_svg1 {
+        display: none;
+    }
+    #programmer_svg2 {
+        display: none;
+    } 
+    .experiencia {
+        margin: 0 auto;
+        max-width: 30em;
+    }
+    .projetos {
+        flex-direction: column;
+        max-width: 32em;
+    }
+    .container {
+        max-width: 25em;
+    }
+}
+
+@media screen and (max-width: 481px) {
+    .cabecalho {
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .title {
+        margin: 0 auto;
+    }
+    .social {
+        margin: 0 auto;
+    }
+    .social ul {
+        margin-left: -40px;
+    }
+    .intro, section {
+        max-width: 480px;
+    }
+    .projetos h1 {
+        font-size: 1.5em;
+    }
+    .container h1 {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 361px) {
+    .intro, section {
+        max-width: 360px;
+    }
+    .intro_profile h1 {
+        font-size: 1.5em;
+    }
+    .intro_profile h2 {
+        font-size: 1em;
+    }
+    .intro p {
+        font-size: 0.8em;
+    }
+    .intro a {
+        font-size: 0.9em;
+    }
+    .experiencia_texto h1 {
+        font-size: 1.7em;
+    }
+    .experiencia_texto p {
+        font-size: 0.8em;
+    } 
+    .projetos h1 {
+        font-size: 1.3em;
+    }
+    .projetos p {
+        font-size: 0.8em;
+    }
+    .container h1 {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 341px) {
+    .intro, section {
+        max-width: 340px;
+    }
+    .intro a {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .intro, section {
+        max-width: 320px;
+    }
+    .intro_profile h1 {
+        font-size: 1.4em;
+    }
+    .swiper {
+        width: 15em;
+    }
+    .swiper img {
+        width: 15em;
+    }
+    .container h1 {
+        font-size: 1em;
+    }
+    .container {
+        max-width: 17em;
+    }
+    .projetos_text h1 {
+        font-size: 1.5em;
+    }
 }
