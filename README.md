@@ -6,14 +6,16 @@
   <img align="center" alt="Git" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"> 
 </p>
 
+<div align="center"> 
+  <a href="https://www.instagram.com/developer_alemenezes" target="_blank"><img alt="Instagram" src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"</a>
+  <a href = "mailto:alexandremmnzssilva2509@gmail.com"> <img alt="Gmail" src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/alexandre-m-menezes-silva-836191289/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+</div>
 <p>:man_technologist: Desenvolvedor Full Stack com expertise em Python e SQL. Proficiente para o desenvolvimento completo, integrando o back-end utilizando Python para criar o funcionamento dos softwares, gerenciando dados, lógica de negócios e segurança. Domínio em SQL para manipulação de bancos de dados e Git para versionamento de software.</p>
 
 <p>👨‍💻 Full Stack developer with expertise in Python and SQL. Proficient in complete development, integrating the back-end using Python to create software functionality, managing data, business logic, and security. Proficiency in SQL for database manipulation and Git for software version control.</p>
 
-<div>
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=menezesalexandre-development&show_icons=true&locale=en&layout=compact" alt="menezesalexandre" /></p>
-
-<p><img align="right" src="https://github-readme-stats.vercel.app/api?username=menezesalexandre-development&show_icons=true&locale=en" alt="menezesalexandre" /></p>
+<div align="center">  
+  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=menezesalexandre-development&show_icons=true&count_private=True&hide_border=true&title_color=ff&icon_color=ff&text_color=c9d1d9&bg_color=0D1117" alt="menezesalexandre stats" /> 
+  <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=menezesalexandre-development&layout=compact&hide_border=true&title_color=ff&text_color=fff&bg_color=0D1117" alt="menezesalexandre most used languages"/>
 </div>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=menezesalexandre-development&" alt="menezesalexandre-development" /></p>
