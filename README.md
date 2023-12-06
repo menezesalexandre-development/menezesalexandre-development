@@ -29,6 +29,6 @@
 </div>
 
 <div align="center">  
-  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=menezesalexandre-development&show_icons=true&count_private=True&hide_border=true&title_color=ff&icon_color=ff&text_color=c9d1d9&bg_color=0D1117" alt="menezesalexandre stats" /> 
+  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=menezesalexandre-development&show_icons=true&hide_border=true&title_color=ff&icon_color=ff&text_color=c9d1d9&bg_color=0D1117" alt="menezesalexandre stats" /> 
   <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=menezesalexandre-development&layout=compact&hide_border=true&title_color=ff&text_color=fff&bg_color=0D1117" alt="menezesalexandre most used languages"/>
 </div>
