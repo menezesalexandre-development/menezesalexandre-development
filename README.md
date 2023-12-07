@@ -1,10 +1,11 @@
 <h1 align="center">Olá, Mundo! | Hello, World!</h1>
+![flasklogo2]()
 
 <p align="center">
   
   <img align="center" alt="Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
   <img align="center" alt="MySQL" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg">
-  <img align="center" alt="Flask" height="35" width="30" src="https://github.com/menezesalexandre-development/menezesalexandre-development/assets/105326153/af7f9eb1-bf99-4d7a-9833-341620cbaa56">
+  <img align="center" alt="Flask" height="30" width="35" src="https://github.com/menezesalexandre-development/menezesalexandre-development/assets/105326153/b1c4f135-021b-4b40-9c21-a7a13afcfddf">
   <img align="center" alt="Git" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"> 
   <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   
