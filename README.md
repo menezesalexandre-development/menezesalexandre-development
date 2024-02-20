@@ -15,9 +15,9 @@
   <a href = "mailto:alexandremmnzssilva2509@gmail.com"> <img alt="Gmail" src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/alexandre-m-menezes-silva-836191289/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
 </div>
-<p>:man_technologist: Desenvolvedor Full Stack com expertise em Python e SQL. Proficiente para o desenvolvimento completo, integrando o back-end utilizando Python para criar o funcionamento dos softwares, gerenciando dados, lógica de negócios e segurança. Domínio em SQL para manipulação de bancos de dados e Git para versionamento de software.</p>
+<p>:man_technologist: Desenvolvedor Back-End com expertise em Python e SQL. Proficiente para o desenvolvimento completo, integrando o back-end utilizando Python para criar o funcionamento dos softwares, gerenciando dados, lógica de negócios e segurança. Domínio em SQL para manipulação de bancos de dados e Git para versionamento de software.</p>
 
-<p>👨‍💻 Full Stack developer with expertise in Python and SQL. Proficient in complete development, integrating the back-end using Python to create software functionality, managing data, business logic, and security. Proficiency in SQL for database manipulation and Git for software version control.</p>
+<p>👨‍💻 Back-End developer with expertise in Python and SQL. Proficient in complete development, integrating the back-end using Python to create software functionality, managing data, business logic, and security. Proficiency in SQL for database manipulation and Git for software version control.</p>
 
 <div align="center">
   
