@@ -13,6 +13,9 @@
 
 <div align="center"> 
   <a href = "mailto:alexandremmnzssilva2509@gmail.com"> <img alt="Gmail" src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.instagram.com/developer_alemenezes/">
+    <img alt="Instagram" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank">
+  </a>
   <a href="https://www.linkedin.com/in/alexandre-m-menezes-silva-836191289/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
 </div>
 <p>:man_technologist: Desenvolvedor Full-Stack com ampla experiência em Python, atuando na criação e integração de sistemas, desenvolvimento de softwares, automação de processos e manipulação de APIs, utilizando ferramentas como FastAPI para construir APIs otimizadas e eficientes. Tenho proficiência em SQL para modelagem, manipulação e otimização de bancos de dados, além de expertise em análise de dados com a biblioteca Pandas da linguagem Python, gerando insights e relatórios estratégicos. Também possuo conhecimento em desenvolvimento web com HTML, CSS, JavaScript e Flask, integrando front-end e back-end para criar aplicações funcionais e escaláveis. Utilizo Git para controle de versão e colaboração em equipe, garantindo qualidade e organização no desenvolvimento de projetos.</p>
